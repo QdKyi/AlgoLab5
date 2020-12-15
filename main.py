@@ -1,5 +1,4 @@
-def rabin_karp(text_to_find, text, prime_number):
-    number_of_characters = 256
+def rabin_karp(text_to_find, text, prime_number, number_of_characters=256):
     length_of_pattern = len(text_to_find)
     length_of_text = len(text)
     pattern_hash = 0
